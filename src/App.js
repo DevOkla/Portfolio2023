@@ -27,10 +27,10 @@ const App = () => {
         <Button
           initial={{ y: -80, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.3, ease: easeIn, delay: 2 }}
+          transition={{ duration: 0.3, ease: easeIn }}
           style={{
             justifyContent: theme === 'light' ? 'flex-end' : 'flex-start'
-            , transition: theme && '1s'
+            , transition: theme && '0.8s'
           }}
           onClick={themeToggler}>{icon}</Button>
         <Home
@@ -53,13 +53,13 @@ const Button = styled(motion.button)`
       top: 10px;
       left: 10px;
        width: 8rem;
-      background: ${({ theme }) => theme.buttonText};
-      border: 2px solid ${({ theme }) => theme.buttonText};
-      color: ${({ theme }) => theme.buttonBg};
+      background: ${({ theme }) => theme.pagesBackgroundGradient};
+      border: 1px solid ${({ theme }) => theme.buttonText};
+      color: ${({ theme }) => theme.sunMoon};
       border-radius: 10px;
       cursor: pointer;
       font-size: 0.8rem;
       padding: 0.6rem;
- 
+      position: fixed;
       `;
 export default App;

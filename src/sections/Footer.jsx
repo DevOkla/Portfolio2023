@@ -31,7 +31,7 @@ const Footer = (theme) => {
       <INFO>
         <CopyRight>Powered by &copy; DevOkla</CopyRight>
         <SrcCode
-          href="https://github.com/DevOkla/DevoklaPortfolio"
+          href="https://github.com/DevOkla/Portfolio2023"
           target="_blank"
         >
           <AiFillGithub />
@@ -46,9 +46,10 @@ const FooterConatiner = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+
   width: 100%;
-  padding: 3rem 0 1rem 0;
+  padding: 3rem 0 1rem 4rem;
   background: ${({ theme }) => theme.footerBackground};
 `;
 const Logo = styled.div`

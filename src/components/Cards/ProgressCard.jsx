@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { GrMysql } from "react-icons/gr";
 import {
   SiRedux,
   SiNextdotjs,
@@ -10,6 +11,7 @@ import {
   SiThreedotjs,
   SiMicrosoftsqlserver,
   SiStripe,
+  SiMysql,
 } from "react-icons/si";
 const ProgressCard = () => {
   return (
@@ -46,6 +48,10 @@ const ProgressCard = () => {
       <NewTech>
         <SiThreedotjs />
         <Title>Three.js</Title>
+      </NewTech>
+      <NewTech>
+        <GrMysql />
+        <Title>MySQL</Title>
       </NewTech>
     </Card>
   );
