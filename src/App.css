@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  font-family: var(--font-family);
+}
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(14, 2, 78);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 20px;
+  border: 2.5px solid blue;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+ 
+
+/*Smaller screens*/
+@media screen and (max-width: 950px) {
+  html {
+    font-size: 70%;
+  }
+}
+/*Very small screens*/
+@media screen and (max-width: 390px) {
+  html {
+    font-size: 55%;
+  }
+}
