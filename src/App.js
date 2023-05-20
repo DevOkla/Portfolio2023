@@ -51,10 +51,11 @@ const Button = styled(motion.button)`
   display: flex;
       z-index: 3;
       top: 10px;
+      outline:none;
+      border:none;
       left: 10px;
-       width: 8rem;
-      background: ${({ theme }) => theme.pagesBackgroundGradient};
-      border: 1px solid ${({ theme }) => theme.buttonText};
+       width: 3.6rem;
+      background: ${({ theme }) => theme.buttonBg};
       color: ${({ theme }) => theme.sunMoon};
       border-radius: 10px;
       cursor: pointer;

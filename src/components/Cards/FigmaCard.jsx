@@ -25,7 +25,7 @@ const FigmaCard = () => {
               <Green />
               <Green />
               <Green />
-              <Red />
+              <Green />
               <Red />
             </Bars>
             <h2>Figma</h2>

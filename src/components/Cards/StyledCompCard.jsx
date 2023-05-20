@@ -26,7 +26,7 @@ const StyledCompCard = () => {
               <Green />
               <Green />
               <Green />
-              <Red />
+              <Green />
             </Bars>
             <h2>Styled Components</h2>
             &nbsp;

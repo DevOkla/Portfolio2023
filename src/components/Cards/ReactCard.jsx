@@ -25,7 +25,7 @@ const ReactCard = () => {
               <Green />
               <Green />
               <Green />
-              <Red />
+              <Green />
               <Red />
             </Bars>
             <h2>React</h2>
@@ -33,8 +33,7 @@ const ReactCard = () => {
             <h4>React core concepts</h4>
             <h4>States & Props</h4>
             <h4>Hooks & Dependencies</h4>
-            <h4>JSX & Modules</h4>
-            <h4>NPM & Basic Redux</h4>
+            <h4>Modules & Routing </h4>
           </CardBack>
         </CardBox>
       </Card>

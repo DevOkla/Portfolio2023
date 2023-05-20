@@ -21,11 +21,13 @@ const TailWindCard = () => {
           </CardFront>
           <CardBack>
             <Bars>
+            <Green />
               <Green />
-              <Green />
-              <Red />
-              <Red />
-              <Red />
+             <Green />
+
+              <Green />  
+               <Green />
+            
             </Bars>
             <h2>Tailwind</h2>
             &nbsp;

@@ -7,5 +7,7 @@ export { default as PhotographerProject } from './PhotographerProject';
 export { default as PexonProject } from './PexonProject';
 export { default as NostalgiaProject } from './NostalgiaProject';
 export { default as ChillTunesProject } from './ChillTunesProject';
+export { default as KramforsKProject } from './KramforsKProject';
+export { default as EmiratesAdventoursProject } from './EmiratesAdventoursProject';
 
 

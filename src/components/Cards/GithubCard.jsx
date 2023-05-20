@@ -25,7 +25,7 @@ const GithubCard = () => {
               <Green />
               <Green />
               <Green />
-              <Red />
+              <Green />
               <Red />
             </Bars>
             <h2>Git</h2>

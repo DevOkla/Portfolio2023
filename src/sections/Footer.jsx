@@ -42,7 +42,6 @@ const Footer = (theme) => {
   );
 };
 const FooterConatiner = styled.div`
-  border-top: ${({ theme }) => theme.footerborder};
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,6 +50,7 @@ const FooterConatiner = styled.div`
   width: 100%;
   padding: 3rem 0 1rem 4rem;
   background: ${({ theme }) => theme.footerBackground};
+  box-shadow: inset 0px 15px 15px -11px #fff;
 `;
 const Logo = styled.div`
   font-size: 4rem;

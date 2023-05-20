@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import {lightTheme,darkTheme} from '../components/DarklMode/Themes';
 export const Cards = styled.div`
   width: 15rem;
   height: 15rem;
@@ -20,7 +20,7 @@ export const CardFront = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #0969b3;
+  background: ${({ theme }) => theme.flipCardBg};
   font-size: 7rem;
   border-radius: 1rem;
   @media (max-width: 950px) {
@@ -36,7 +36,7 @@ export const CardBack = styled.div`
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
-  background: linear-gradient(to top right, #b6b8f0, #7e9af5, #b7f386f1);
+  background: linear-gradient(to top right, #bfc1f2, #9fb3f5, #b7f386f1);
   color: black;
   text-align: left;
   padding: 2rem 1.3rem;

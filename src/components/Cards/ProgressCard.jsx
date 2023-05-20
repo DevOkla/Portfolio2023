@@ -2,16 +2,14 @@ import React from "react";
 import styled from "styled-components";
 import { GrMysql } from "react-icons/gr";
 import {
-  SiRedux,
   SiNextdotjs,
   SiWebpack,
-  SiBlender,
+   
   SiNodedotjs,
   SiJest,
-  SiThreedotjs,
+ 
   SiMicrosoftsqlserver,
-  SiStripe,
-  SiMysql,
+  
 } from "react-icons/si";
 const ProgressCard = () => {
   return (
@@ -21,18 +19,12 @@ const ProgressCard = () => {
         <Title>Node.js</Title>
       </NewTech>
 
-      <NewTech>
-        <SiRedux />
-        <Title>Redux</Title>
-      </NewTech>
+ 
       <NewTech>
         <SiMicrosoftsqlserver />
         <Title>SQL Azure</Title>
       </NewTech>
-      <NewTech>
-        <SiWebpack />
-        <Title>Webpack</Title>
-      </NewTech>
+   
       <NewTech>
         <SiNextdotjs />
         <Title>Next.js</Title>
@@ -41,14 +33,8 @@ const ProgressCard = () => {
         <SiJest />
         <Title>Jest</Title>
       </NewTech>
-      <NewTech>
-        <SiStripe />
-        <Title>Stripe</Title>
-      </NewTech>
-      <NewTech>
-        <SiThreedotjs />
-        <Title>Three.js</Title>
-      </NewTech>
+  
+    
       <NewTech>
         <GrMysql />
         <Title>MySQL</Title>
@@ -64,8 +50,8 @@ const Card = styled.div`
   align-items: center;
   gap: 2.6rem;
   flex-wrap: wrap;
-  background-color: #0969b3;
-  font-size: 7rem;
+  background: ${({theme})=> theme.cardBg };
+  font-size: 5rem;
   border-radius: 1rem;
 `;
 const NewTech = styled.div`

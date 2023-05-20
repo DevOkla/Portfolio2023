@@ -26,7 +26,7 @@ const JSCard = () => {
               <Green />
               <Green />
               <Green />
-              <Red />
+              <Green />
             </Bars>
             <h2>JavaScript </h2>
             <h4>Functions & Objects</h4>

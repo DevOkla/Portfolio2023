@@ -12,7 +12,9 @@ import {
   PexonProject,
   NostalgiaProject,
   HexColorator,
+  EmiratesAdventoursProject,
   ChillTunesProject,
+  KramforsKProject,
 } from "../components/projects/index.js";
 import Lights from "../Assets/Lights.jpg";
 
@@ -57,6 +59,9 @@ const Projects = (theme) => {
             <SRadio />
           </SplideSlide>
           <SplideSlide>
+            <EmiratesAdventoursProject />
+          </SplideSlide>
+          <SplideSlide>
             <RecipeProject />
           </SplideSlide>
           <SplideSlide>
@@ -67,6 +72,9 @@ const Projects = (theme) => {
           </SplideSlide>
           <SplideSlide>
             <HexColorator />
+          </SplideSlide>
+          <SplideSlide>
+            <KramforsKProject />
           </SplideSlide>
           <SplideSlide>
             <PhotographerProject />
@@ -85,9 +93,9 @@ const ProjectsDiv = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 50vh;
-  background: ${({ theme }) => theme.projectsBackground};
+  background: ${({ theme }) => theme.pagesBackgroundGradient};
 
-  box-shadow: inset 0px 11px 15px -11px #ccc, inset 0px -11px 15px -11px #ccc;
+  box-shadow: inset 0px 15px 15px -11px #fff, inset 0px -15px 15px -11px #fff;
 `;
 const H1 = styled.h1`
   color: ${({ theme }) => theme.text};
@@ -100,7 +108,6 @@ const H1 = styled.h1`
 `;
 
 const ProjectsContainer = styled.div`
-  background-image: url(${Lights});
   background-position: center center;
 `;
 export default Projects;
