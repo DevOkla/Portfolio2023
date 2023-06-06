@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { keyframes } from "styled-components";
- 
+
 import Setup1 from "../Assets/Setup1.jpg";
 import Setup2 from "../Assets/Setup2.jpg";
 
@@ -9,7 +9,7 @@ const SetUp = (theme) => {
   return (
     <SetUpSection id="SetUp">
       <SetUpContainer>
-        <H1> Setup</H1>
+        <H1>My Setup</H1>
         <Gallery>
           <ImgContainer1>
             <IMG1 src={Setup1} alt="Computers"></IMG1>
@@ -24,7 +24,7 @@ const SetUp = (theme) => {
 };
 const SetUpSection = styled.div`
   min-height: 60vh;
- 
+
   background-repeat: no-repeat;
   background-size: cover;
 `;
@@ -39,7 +39,7 @@ const H1 = styled.h1`
 `;
 const SetUpContainer = styled.div`
   padding-bottom: 4rem;
-  background: ${({ theme }) => theme.pagesBackgroundGradient}; ;
+  background: ${({ theme }) => theme.pagesBackgroundGradient};
 `;
 const Gallery = styled.div`
   display: flex;

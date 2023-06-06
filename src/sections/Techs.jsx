@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
- 
 
 import {
   TailWindCard,
@@ -20,7 +19,7 @@ const Techs = (theme) => {
   return (
     <TechsContainer id="Technologies">
       <BackgroundGradient>
-        <H1>Technologies </H1>
+        <H1>Technologies I use</H1>
         <CardsContainer>
           <HTMLCard />
           <CSSCard />
@@ -33,30 +32,26 @@ const Techs = (theme) => {
           <FigmaCard />
           <ValidatedCode />
         </CardsContainer>
-        <H1>Other Techs </H1>
+        <H1>Other Techs I use</H1>
         <CardsContainer>
-        <OtherTechs />
-         
-        <H1>In Progress </H1>
-        <ProgressCard />
+          <OtherTechs />
+
+          <H1>In-Progress Techs </H1>
+          <ProgressCard />
         </CardsContainer>
       </BackgroundGradient>
     </TechsContainer>
   );
 };
 const BackgroundGradient = styled.div`
-  background: ${({ theme }) => theme.pagesBackgroundGradient}; ;
+  background: ${({ theme }) => theme.pagesBackgroundGradient};
 `;
 const TechsContainer = styled.div`
- 
-
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
 `;
 const H1 = styled.h1`
- 
-
   color: ${({ theme }) => theme.text};
   display: flex;
   justify-content: center;

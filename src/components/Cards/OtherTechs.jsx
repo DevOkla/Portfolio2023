@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
- 
+
 import { ImWordpress } from "react-icons/im";
 import { FaExpeditedssl } from "react-icons/fa";
+import { DiNpm } from "react-icons/di";
 import {
   SiRedux,
   SiVisualstudiocode,
-  
   SiGithub,
   SiFilezilla,
   SiStripe,
@@ -22,10 +22,14 @@ const OtherTechs = () => {
       <NewTech>
         <SiVite />
         <Title>Vite</Title>
-      </NewTech>   
+      </NewTech>
       <NewTech>
         <SiStripe />
         <Title>Stripe</Title>
+      </NewTech>
+      <NewTech>
+        <DiNpm />
+        <Title>NPM</Title>
       </NewTech>
       <NewTech>
         <FaExpeditedssl />
@@ -34,12 +38,11 @@ const OtherTechs = () => {
       <NewTech>
         <SiFilezilla />
         <Title>FileZilla</Title>
-      </NewTech> 
+      </NewTech>
       <NewTech>
         <SiVisualstudiocode />
         <Title>VSCode</Title>
       </NewTech>
-      
 
       <NewTech>
         <ImWordpress />
@@ -60,7 +63,7 @@ const Card = styled.div`
   align-items: center;
   gap: 2.6rem;
   flex-wrap: wrap;
-  background: ${({theme})=> theme.cardBg };
+  background: ${({ theme }) => theme.cardBg};
   font-size: 5rem;
   border-radius: 1rem;
 `;
